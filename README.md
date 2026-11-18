@@ -5,14 +5,14 @@ An academic distributed systems project implementing a URL shortener in Java, us
 ## Features
 - **Remote URL Shortening:** Sends an original URL from the client GUI and generates a unique positive hash code on the server via Java RMI
 - **Shared In-Memory Storage:** Fast key-value mapping (Short Hash -> Original URL) accessed concurrently by both the RMI service and the HTTP server
-- **Automatic Redirection (HTTP 302):** Intercepts browser requests on port `8080` and transparently redirects users to the target destination
+- **Automatic Redirection:** Intercepts browser requests and transparently redirects users to the target destination
 - **Built-in Browser Testing:** Includes a direct button in the client window to open the generated short URL in the system's default web browser
 
 ## Technologies Used
 - **Java SE** (JDK 8 or higher)
-- **Java RMI** (`java.rmi`) — Remote Method Invocation
-- **Java HTTP Server** (`com.sun.net.httpserver`) — Embedded web server for HTTP 302 redirection
-- **Java Swing** (`javax.swing`) — Desktop graphical user interface for the client
+- **Java RMI** - Remote Method Invocation
+- **Java HTTP Server** - Embedded web server for HTTP 302 redirection
+- **Java Swing** - Desktop graphical user interface for the client
 
 ## System Architecture
 The server operates using a hybrid architecture, initializing two parallel services that share the same in-memory database instance (UrlDatabase):
