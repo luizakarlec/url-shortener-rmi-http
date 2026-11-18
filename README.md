@@ -33,8 +33,7 @@ The server operates using a hybrid architecture, initializing two parallel servi
 ### Step-by-Step
 1. Clone the repository
 ```
-git clone [https://github.com/luizakarlec/](https://github.com/luizakarlec/)[repository-name].git
-cd [repository-name]
+git clone https://github.com/luizakarlec/url-shortener-rmi-http.git
 ```
 2. Start the Server - Open the project and run the server.Server class
 3. Start the Client: With the server running, execute the client.Client class to launch the graphical interface
