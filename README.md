@@ -36,15 +36,6 @@ The server operates using a hybrid architecture, initializing two parallel servi
 git clone [https://github.com/luizakarlec/](https://github.com/luizakarlec/)[repository-name].git
 cd [repository-name]
 ```
-
-2. Start the Server
-Open the project in your IDE and run the server.Server class
-
-3. Start the Client
-With the server running, execute the client.Client class to launch the graphical interface
-
+2. Start the Server - Open the project and run the server.Server class
+3. Start the Client: With the server running, execute the client.Client class to launch the graphical interface
 4. Use the System
-
-- Enter a full URL in the Insert URL field
-- Click Generate to obtain the shortened link
-- Click Test URL (or paste the link into your browser) to test the redirection
