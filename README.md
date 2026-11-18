@@ -6,7 +6,6 @@ An academic distributed systems project implementing a URL shortener in Java, us
 - **Remote URL Shortening:** Sends an original URL from the client GUI and generates a unique positive hash code on the server via Java RMI
 - **Shared In-Memory Storage:** Fast key-value mapping accessed concurrently by both the RMI service and the HTTP server
 - **Automatic Redirection:** Intercepts browser requests and transparently redirects users to the target destination
-- **Built-in Browser Testing:** Includes a direct button in the client window to open the generated short URL in the system's default web browser
 
 ## Technologies Used
 - **Java SE** (JDK 8 or higher)
